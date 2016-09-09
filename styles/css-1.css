@@ -1,0 +1,130 @@
+
+body {
+	margin: 0;
+	background-color: #fcf4db;
+}
+
+* {
+	box-sizing: border-box;
+} 
+#wrapper{
+	width:1225px;
+	position: relative;
+	top:0;
+}
+
+#left-col{
+	width:300px;
+	height:1000px;
+	background-color: #000;
+	left:0px;
+	top:0px;
+	position:fixed;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded","Arial",sans-serif;
+
+}
+
+#main-content{
+	width: 1000px;
+	height: 500px;
+	left:300px;
+	top:50px;
+	position: absolute;
+	padding: 15px;
+
+}
+
+#main-content img {
+	float: left;
+	padding: 15px;
+
+}
+
+form {
+	padding:25px;
+	margin: 20px;
+}
+
+input{
+	margin: 10px;
+	padding: 1px;
+	width: 150px;
+}
+
+img a {
+	
+	text-decoration: none;
+
+
+}
+
+textarea{
+	 resize: none;
+	 width: 200px;
+
+}
+
+img:hover.el {
+	opacity: 0.5;
+
+
+
+}
+
+
+p {
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded","Arial",sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+
+h1 {
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded","Arial",sans-serif;
+	font-size: 33px;
+	color: #333;
+	margin: 0px;
+}
+
+.contact {
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded","Arial",sans-serif;
+	font-size: 33px;
+	color: #333;
+	margin-left: 45px;
+
+}
+
+#left-col ul{
+	list-style: none;
+	padding-left: 0;
+	line-height: 30px;
+
+}
+
+#left-col ul a{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #ccc;
+
+}
+
+#left-col ul a:hover{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+
+}
+#left-col ul a:visited{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #171616;
+
+}
